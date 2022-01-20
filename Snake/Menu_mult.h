@@ -87,7 +87,7 @@ void MultiPlayer_menu(RenderWindow& window) {
 	if (Mouse::isButtonPressed(Mouse::Left) && isPlayButton) {
 		status = 0;
 		Settings_m.close();
-		Settings_m.open("config_Mul.txt", ios_base::out);
+		Settings_m.open("config_Mult.txt", ios_base::out);
 		if (PlayerNameDynamic_m.length() != 0) {
 			PlayerName_m = PlayerNameDynamic_m;
 			PlayerNameInput_m.setString(PlayerNameDynamic_m);
