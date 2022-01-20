@@ -12,7 +12,7 @@ bool isNameInp = false;									//Индикатор ввода имени.
 bool SaveIs = 0;										//Индикатор сохранения.
 
 
-//Перемнные настроек. По умолчанию всё 0.
+//Перемeнные настроек. По умолчанию всё 0.
 int active_rounds = 0;
 int active_size = 0;
 int active_layout = 0;

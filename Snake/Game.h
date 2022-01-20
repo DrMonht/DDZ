@@ -267,7 +267,7 @@ bool pause(RenderWindow& Window) { //true - выход
 				Window.close();
 		}
 
-		//Текстыры
+		//Текстуры
 		Texture PauseBackgroundTexture, ResumeButtonTexture, RestartButtonTexture, ExitButtonTexture;
 		PauseBackgroundTexture.loadFromFile("Pictures\\PauseBackground.png");
 		ResumeButtonTexture.loadFromFile("Pictures\\ResumeButton.png");
