@@ -1,4 +1,5 @@
 ﻿  Menu_interface.cpp
+<<<<<<< HEAD
 C:\Users\Danilx\Documents\DDZ\Snake\Game.h(333,28): warning C4305: аргумент: усечение из "double" в "float"
 C:\Users\Danilx\Documents\DDZ\Snake\Game.h(388,28): warning C4305: аргумент: усечение из "double" в "float"
 C:\Users\Danilx\Documents\DDZ\Snake\Game.h(446,28): warning C4305: аргумент: усечение из "double" в "float"
@@ -28,3 +29,34 @@ C:\Users\Danilx\Documents\DDZ\Snake\Settings_of_buttons.h(35,23): warning C4244:
 C:\Users\Danilx\Documents\DDZ\Snake\Settings_of_buttons.h(35,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
 C:\Users\Danilx\Documents\DDZ\Snake\Game.h(319): warning C4715: pause: значение возвращается не при всех путях выполнения
   Snake.vcxproj -> C:\Users\Danilx\Documents\DDZ\Snake\Debug\Snake.exe
+=======
+C:\Users\HP\Documents\DDZ\Snake\Game.h(333,28): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\HP\Documents\DDZ\Snake\Game.h(388,28): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\HP\Documents\DDZ\Snake\Game.h(446,28): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\HP\Documents\DDZ\Snake\Game.h(602,83): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(602,48): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(604,98): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(604,55): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(607,99): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(607,56): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(677,98): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(677,55): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(680,99): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(680,56): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(790,98): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(790,55): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(793,99): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(793,56): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(837,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(899,15): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(971,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\HP\Documents\DDZ\Snake\Game.h(982,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\HP\Documents\DDZ\Snake\Game.h(983,115): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(983,64): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(1024,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(1069,14): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Settings_of_buttons.h(35,23): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Settings_of_buttons.h(35,20): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\HP\Documents\DDZ\Snake\Game.h(319): warning C4715: pause: значение возвращается не при всех путях выполнения
+  Snake.vcxproj -> C:\Users\HP\Documents\DDZ\Snake\Debug\Snake.exe
+>>>>>>> main
