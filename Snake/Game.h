@@ -35,7 +35,7 @@ const string MapBackgroundMul("Pictures\\MapBackgroundMul.png"); //Карта многопо
 const string TextureB("Pictures\\TextureB.png"); //Tекстуры большой карты
 const string TextureL("Pictures\\TextureL.png"); //Текстуры маленькой карты
 const string ConfigPath("config.txt");
-const string ConfigMulPath("config_Mul.txt");
+const string ConfigMulPath("config_Mult.txt");
 const string FontPath("font\\ComicSans.ttf");
 
 //Игровые параметры
@@ -689,7 +689,7 @@ public:
 	}
 
 
-	//Dangerous by Erik71Pensian. функция логичесокго обхода ботами опасных ситуаций
+	// функция логичесокго обхода ботами опасных ситуаций
 	void Dangerous(int newX, int newY, Direction assumption) {
 		PlaneCondition MayBeIGoTo;
 		//Антирекурсия
@@ -698,12 +698,6 @@ public:
 			newDirection = Direction::Up;
 			return;
 		}
-		//Краткое описание:
-		//В жизни каждой змеи наступает ситуация, когда необхожимо идти к яблоку, но впереди препятсвие. Данная функция помодет бедной змейке рбойти препятсивие и не дать вам выиграть так просто.
-		//Если в предполагаемом направлении движения (направление передаётся функции как параметр) преград нет, то функция вернёт текущее направление
-		//По сути, то функция-фильтр
-		//В случае встречи препятсвия функция вызывается заново, но аргумент предполагаемого направления меняется на соседнюю по часовой стрелке
-		//При каждом новом рекурсионном вызове функции Recursion возрастает. При значении 4 змейка умирает, т.к. ей некуда ползти
 		switch (assumption) {
 		case (Direction::Up):
 			//Проверка доступности клетки по направлению вдоль предполагаемого движения
