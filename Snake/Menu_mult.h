@@ -76,7 +76,10 @@ void MultiPlayer_menu(RenderWindow& window) {
 	}
 
 	if (IntRect(850, 665, 320, 120).contains(Mouse::getPosition(window))) { Play_M.setColor(Color(105, 101, 101, 160)); isPlayButton = true; }
-	else SaveIs = false;
+	else {
+		SaveIs = false;
+		isPlayButton = false;
+	}
 
 	if (IntRect(850, 665, 320, 120).contains(Mouse::getPosition(window))) { InputFill.setFillColor(Color(255, 255, 255, 250)); isPlayButton = true; }
 
